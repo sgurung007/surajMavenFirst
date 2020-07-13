@@ -49,5 +49,7 @@ compiler.xml
 encodings.xml
 misc.xml
 vcs.xml
-src/
 src/test/
+src/main/java/org/ententReporter/
+src/main/java/org/testNgSuraj/
+src/main/resources/
