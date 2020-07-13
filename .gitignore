@@ -49,3 +49,5 @@ compiler.xml
 encodings.xml
 misc.xml
 vcs.xml
+src/
+src/test/
