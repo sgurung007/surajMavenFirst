@@ -18,6 +18,7 @@ public class App {
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         System.out.println(driver.getCurrentUrl());
+        System.out.println("this is fucking awesome");
         driver.quit();
     }
 }
