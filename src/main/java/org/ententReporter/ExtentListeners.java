@@ -24,7 +24,7 @@ public class ExtentListeners implements ITestListener {
 	static Date d = new Date();
 	static String fileName = "Extent_" + d.toString().replace(":", "_").replace(" ", "_") + ".html";
 
-	private static ExtentReports extent = ExtentManager.createInstance(System.getProperty("user.dir")+"\\reports\\"+fileName);
+	private static ExtentReports extent = ExtentManager.createInstance(System.getProperty("user.dir")+"\\target\\"+fileName);
 	
 	public static ExtentTest test;
 
@@ -61,7 +61,7 @@ public class ExtentListeners implements ITestListener {
 	
 		try {
 			
-			String screenshot = "C:\\Users\\way2automation\\Desktop\\dd.png";
+			String screenshot = "A:\\SurajIntellijProject\\surajMavenFirst\\src\\main\\resources\\women_swim_suit.jpg.jpg";
 			test.fail("<b><font color=red>" + "Screenshot of failure" + "</font></b><br>",
 					MediaEntityBuilder.createScreenCaptureFromPath(screenshot)
 							.build());
